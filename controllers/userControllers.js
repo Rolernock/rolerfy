@@ -172,7 +172,7 @@ export const resetPasswordEmail = asyncHandler(async (req, res) => {
   }
   const token = await user.getResetPasswordToken()
   await user.save()
-  const resetUrl = `rolerfy.xyz/reset-password/${token}`
+  const resetUrl = `rolerfy.onrender.com/reset-password/${token}`
   try {
     sendEmail({
       to: email,
