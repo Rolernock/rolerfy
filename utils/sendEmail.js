@@ -2,9 +2,9 @@ import nodemailer from 'nodemailer'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const host = 'das102.truehost.cloud'
+const host = 'smtp.gmail.com'
 const port = 587
-const user = 'rolernock@rolerfy.xyz'
+const user = 'rolernockgoines@gmail.com'
 const pass = process.env.SMTP_PASS
 
 const sendEmail = async options => {
