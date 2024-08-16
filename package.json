@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "E-commerce website for alcoholic drinks",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "build": "npm i --prefix ./client && npm run build --prefix ./client && npm i",
+    "server": "node server.js"
+  },
+  "author": "Rolernock Goines",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.3",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "date-fns": "^3.6.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "express-validator": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.14"
+  }
+}

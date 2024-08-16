@@ -1,0 +1,107 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+:root {
+  --background-color: #f8f8f8;
+  --oracle-btn: #3d52a0;
+  --secondary-color: #7091e6;
+  --light-background: #f1f1f1;
+  --accent-color: #fd5cb4;
+  --extra-light-background: #f0f5fa;
+  --text-color: #5d5cb4;
+  --chaimoto-color: #6d5cb4;
+  --awwward-color: #f8f8f8;
+  --apple-color: #161617;
+  --primary-color: #3a3632;
+  --oracle-navbar: #f1efed;
+  --oracle-cool: #161513;
+  --oracle-check: #f5f4f2;
+}
+
+body {
+  background: var(--background-color);
+}
+
+.verification-steps {
+  color: var(--accent-color);
+}
+
+.verification-steps:hover {
+  color: var(--secondary-color);
+}
+
+.nav-color {
+  background: var(--primary-color);
+}
+
+.btn-color {
+  background: var(--primary-color);
+  color: var(--background-color);
+}
+
+.text-bold {
+  font-size: 2rem;
+}
+
+.font-bold {
+  font-weight: 900;
+  color: var(--primary-color);
+  font-size: 4rem;
+}
+
+.icon-size {
+  font-size: 7rem;
+  color: var(--primary-color);
+}
+.f-size {
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+.btn-color:hover {
+  background: var(--primary-color);
+  color: var(--background-color);
+  opacity: 0.8;
+}
+.text-custom {
+  color: var(--primary-color);
+}
+
+.text-color {
+  color: var(--background-color);
+}
+
+/* .background-color {
+  background: var(--background-color);
+} */
+
+.rating span {
+  margin: 0.1rem;
+}
+
+.rating svg {
+  color: #f8e825;
+}
+
+.rating-text {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding-left: 0.5rem;
+}
+
+.product-title {
+  text-decoration: none;
+}
+
+.review {
+  margin-top: 30px;
+}
+
+.review h2 {
+  font-size: 24px;
+  background: #f4f4f4;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.review button {
+  margin-top: 10px;
+}
